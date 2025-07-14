@@ -62,10 +62,15 @@ git push origin main
 ```bash 
 # showing commit history 
 git log --oneline 
+# selecting how far back you want to go 
 git rebase -i HEAD ~ 'choose how far back you want to go'
-# apply reword on the selected commit message 
+# choosing what action you want to do 
+# reword (change the name of the commit message), squash (combine two commit messages) 
 # ctrl+o , enter , ctrl+x
-# edit the commit message 
+# edit the commit message or the commit itself 
 # ctrl+o, enter, ctrl+x
-# check if you successfully change the commit message name .
+# confirmation ..
 git append # changes the most recent commit message .
+# pull changes from remote repo 
+git pull --ff-only origin main
+```
