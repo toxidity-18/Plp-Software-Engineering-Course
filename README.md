@@ -62,4 +62,10 @@ git push origin main
 ```bash 
 # showing commit history 
 git log --oneline 
-git amend # changes the most recent commit message .
+git rebase -i HEAD ~ 'choose how far back you want to go'
+# apply reword on the selected commit message 
+# ctrl+o , enter , ctrl+x
+# edit the commit message 
+# ctrl+o, enter, ctrl+x
+# check if you successfully change the commit message name .
+git append # changes the most recent commit message .
