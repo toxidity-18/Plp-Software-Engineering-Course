@@ -56,4 +56,16 @@ git merge new_feature
 # to push changes 
 git push origin main 
 ```
-
+## Advanced github 
+###  Interactive rebase
+- This allows us to change commit message , reorder commit message ,delete commits , combine multiple commits into one and edit existing commit messages .
+```bash 
+# showing commit history 
+git log --oneline 
+git rebase -i HEAD ~ 'choose how far back you want to go'
+# apply reword on the selected commit message 
+# ctrl+o , enter , ctrl+x
+# edit the commit message 
+# ctrl+o, enter, ctrl+x
+# check if you successfully change the commit message name .
+git append # changes the most recent commit message .
