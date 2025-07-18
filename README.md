@@ -74,3 +74,8 @@ git append # changes the most recent commit message .
 # pull changes from remote repo 
 git pull --ff-only origin main
 ```
+
+### Cherry picking 
+- Select and interact with specific commit .
+
+## [ 18 | July | 2025 ]   
