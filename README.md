@@ -79,3 +79,17 @@ git pull --ff-only origin main
 - Select and interact with specific commit .
 
 ## [ 20 | July | 2025 ]   
+
+- Commit to the wrong branch eg to main instead of the feature branch .
+```bash 
+# switch to the feature branch 
+ git checkout 'feature branch name'
+ # cherry pick and the hash of the commit 
+ git cherry-pick 'hash'
+ # clean up the main branch after cherry picking your wrong commit 
+ git checkout main
+ git reset --hard HEAD~1
+ ```
+
+ ### Reflog
+ 
