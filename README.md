@@ -78,4 +78,4 @@ git pull --ff-only origin main
 ### Cherry picking 
 - Select and interact with specific commit .
 
-## [ 18 | July | 2025 ]   
+## [ 20 | July | 2025 ]   
