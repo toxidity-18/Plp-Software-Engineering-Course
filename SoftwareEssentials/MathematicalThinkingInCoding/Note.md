@@ -12,3 +12,6 @@
       - In programming and coding we will use flowcharts .Thus help think through processes and the decision a program has to make .
 5) Logical reasoning goes hand in hand with algorithms .
 6) Evaluation : Finalize and get to know how you can make the solution more simple and yet efficient .
+
+## Introduction of mathematical thinking to coding .
+- 
