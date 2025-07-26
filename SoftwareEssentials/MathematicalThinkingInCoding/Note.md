@@ -14,4 +14,10 @@
 6) Evaluation : Finalize and get to know how you can make the solution more simple and yet efficient .
 
 ## Introduction of mathematical thinking to coding .
-- 
+- Using logical reasoning to design efficient algorithms , optimize code and debug problems .
+- Why it matters :
+   
+   1) Enhance your ability to decompose complex problems 
+   2) Analytic efficiency thus deal with trade off implementation .
+
+``` LOOK INTO THIS OVER THE WEEKEND ...
