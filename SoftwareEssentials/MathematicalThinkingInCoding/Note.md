@@ -1,4 +1,4 @@
-# Mathematical thinking 
+<!-- # Mathematical thinking 
 
 ## [Computational thinking](https://youtu.be/qbnTZCj0ugI)
 - This is a systematic way of approaching and solving complex problems 
@@ -21,7 +21,7 @@
    2) Analytic efficiency thus deal with trade off implementation .
 
 __ LOOK INTO THIS OVER THE WEEKEND ...
-
+ -->
 
 
 #  Mathematical thinking .
@@ -34,4 +34,12 @@ __ LOOK INTO THIS OVER THE WEEKEND ...
 ## Fundamentals concept of mathematical thinking .
 1) Logical reasoning and proof technique 
  
- - ' Breaking big problem into smalls one , think clearly and logically and proving that ur solutions works '
+ - ' Breaking big problem into smalls one , think clearly and logically and proving that ur solutions works 
+ - Logic is foundation of coding we use it in if, else, amd while statements 
+ - Propositional : if a user if logged in : and has paid for the services he/she get premium content .
+ - Predicate : for all user with paid subscription allow download content .
+
+- Proof technique :
+- Direct proof : step by step reasoning .
+- Contradiction : think the opposite 
+- Induction : ???
