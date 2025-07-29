@@ -73,4 +73,27 @@
     # Set : unordered unique collection of items 
        student<_id_based_on_performance = {112,114,118,119}
        print(student_id_based_on_performance)
-       
+    # Dict : they mainly deal with key:values pairs 
+       person = ['name':'Sam','age'=19]
+       print(person)
+
+```
+## Basic operations 
+- Type of python operation :
+ 
+ 1) Arithmetic operator 
+ 2) Assignment operators
+ 3) Comparison operators .
+ 4) Bitwise operators .
+ 5) Logical operators .
+ 6) Specials operators .
+
+ - Arithmetic operators 
+    1) They are used to do mathematical operation on python : addition , subtraction , division , multiplication , exponentiation (power), floor division , float division ,modular(remainder).
+    ```python
+    add = 2+5
+    sub = 4-3
+    times = 2*3
+    exp= 4**2
+
+
