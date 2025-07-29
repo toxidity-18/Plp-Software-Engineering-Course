@@ -36,3 +36,15 @@
 ```
 - Multimedia integration .
 ```html
+    <video controls width="300">
+          <source src="video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+</video>
+
+<audio controls>
+        <source src="sound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+</audio>
+```
+- Understand graphic and drawing .
+```html
