@@ -39,4 +39,13 @@
 ## Rules of naming variable 
 - There are case sensitive and also use underscores instead of camel cases .
 
+## Data types 
+- This are the types of data which can be stored inside variables .
+- They include :
 
+  1) Numeric : i.e int,floats , complex which store numeric values 
+  2) String : str which contain a series of characters .
+  3) Sequence : list,tuple and range which contain a collection of character .
+  4) mapping:dict which holds data in key/value pairs .
+  5) Boolean : bool i.e true of false 
+  6) Set : they hold a series of unique names .
