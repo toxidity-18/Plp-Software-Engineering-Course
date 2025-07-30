@@ -48,3 +48,9 @@
 ```
 - Understand graphic and drawing .
 ```html
+
+- HTML Hyper text markup language .
+- Using markup to describe the structure of a webpage 
+- Nested elements are elements within elements 
+- Attribute provide more details about a html element thus . 
+- Attr name and the attr value : 
