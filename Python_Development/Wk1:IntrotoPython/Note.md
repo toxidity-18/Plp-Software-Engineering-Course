@@ -209,3 +209,6 @@
    else:
    print('Password is strong')
 ```
+<!-- ## Bitwise Operators
+- Bit inside number and letters .
+```python -->

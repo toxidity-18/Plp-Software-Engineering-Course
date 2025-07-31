@@ -132,3 +132,11 @@ if '123' in password :
   print('Password is weak')
 else:
   print('Password is strong')
+# ## Bitwise Operators
+# # &, |, ^, ~, <<, >>
+# in_binary_5 = 101
+# # ON 1
+# # OFF 0
+# # 3 lights in 5 = ON OFF ON 
+# a=5 # 101
+# b=3 # 011
