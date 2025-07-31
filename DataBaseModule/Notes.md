@@ -129,4 +129,13 @@ CREATE TABLE students (
   2) Network models : they are more flexible thus each model can have multiple connections eg telecommunications .
   3) Relational models : store data in tables which can be linked via relationships eg student relation to class and teachers 
   4) Object oriented models : store data as tables which is useful for complex structure eg game characters or video games .
+
+# Introduction to SQL 
+- Long form is structured query language .
+- Basically it helps processes , store , manages, update data .
+- Creating a data you 
+   
+  1) draw rough design of that data : what it about and what is does or needed to be done etc 
+  2) identify the key data points : value name time etc 
+  3) data types : names given to this data point .
   
