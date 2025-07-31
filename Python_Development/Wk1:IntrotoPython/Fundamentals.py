@@ -119,3 +119,15 @@ age = 10
 age >5 and age<13 # True
 age >5 or age<13 # True
 not (age >5 and age<13) # False
+## Membership Operators
+# in, not in
+fruits = ['apple', 'banana', 'orange']
+'banana' in fruits # True
+'grape' in fruits # False
+'a' in fruits[0] # True
+## real world example 
+password = 'hello123'
+if '123' in password :
+  print('Password is weak')
+else:
+  print('Password is strong')

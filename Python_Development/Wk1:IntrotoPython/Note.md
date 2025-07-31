@@ -176,4 +176,23 @@
 ## Logical Operators 
 - Word used by python to determine something truthiness or false
 ```python
+   # and, or, not
+   ## and both ought to be true 
+   is_sunny = True
+   is_warm = True
+   is_weekend = False
+   is_sunny and is_warm # True
+   is_sunny and is_weekend # False
+   ## or either ought to be true
+   is_sunny or is_warm # True
+   is_sunny or is_weekend # True
+   ## not negates the value
+   not is_sunny # False
+   not is_warm # False
+   not is_weekend # True
+```
+## BITWISE AND IDENTITY OP .
+## Membership Operators 
+- Is that thing inside this thing
+```python
    
