@@ -125,6 +125,7 @@ fruits = ['apple', 'banana', 'orange']
 'banana' in fruits # True
 'grape' in fruits # False
 'a' in fruits[0] # True
+'grapes' not in fruits # True
 ## real world example 
 password = 'hello123'
 if '123' in password :

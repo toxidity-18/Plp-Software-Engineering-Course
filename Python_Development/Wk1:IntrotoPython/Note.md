@@ -1,4 +1,4 @@
-<!-- # Introduction 
+# Introduction 
 -[ROADMAP](https://www.canva.com/design/DAF8G-4JKug/vIqPiE9u98khAy7yRHThkw/edit).
 - Python is a high level interpreted programming language used for  many different purposes .
 
@@ -96,7 +96,7 @@
     sub = 4-3
     times = 2*3
     exp= 4**2
-     -->
+    
 
 # Operation in python
 ## Arithmetic Operators 
@@ -195,4 +195,17 @@
 ## Membership Operators 
 - Is that thing inside this thing
 ```python
-   
+   ## Membership Operators
+   # in, not in
+   fruits = ['apple', 'banana', 'orange']
+   'banana' in fruits # True
+   'grape' in fruits # False
+   'a' in fruits[0] # True
+   'grapes' not in fruits # True
+   ## real world example 
+   password = 'hello123'
+   if '123' in password :
+   print('Password is weak')
+   else:
+   print('Password is strong')
+```
