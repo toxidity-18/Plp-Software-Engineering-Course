@@ -1,4 +1,4 @@
-# Introduction 
+<!-- # Introduction 
 -[ROADMAP](https://www.canva.com/design/DAF8G-4JKug/vIqPiE9u98khAy7yRHThkw/edit).
 - Python is a high level interpreted programming language used for  many different purposes .
 
@@ -96,4 +96,59 @@
     sub = 4-3
     times = 2*3
     exp= 4**2
-    
+     -->
+
+# Operation in python
+## Arithmetic Operators 
+- Think of number as building block and our operators as building equipments .
+```python
+    a = 5
+   b = 2
+   # bui;ding equipments 
+   ## addition this is cement 
+   a+b # 7
+   print (a+b)
+   ## subtraction this is chisel 
+   a-b # 3
+   print (a-b)
+   ## division is to share equally 
+   a/b # 2.5
+   print (a/b)
+   ## multiplication this is like adding tile to the floor / making groups 
+   a*b # 10
+   print (a*b)
+   ## floor division used when we have leftover that is remainders 
+   a//b # 2
+   print (a//b)
+   ## modulus this is like the remainder of the division
+   a%b # 1
+   print (a%b)
+   ## exponentiation this is like the power of a number
+   a**b # 25
+   print (a**b)  
+   ## NB : The main difference about floor division and modulus is that floor division ignores the remainder but modulus give the remainder but rounds it off .
+```
+## Comparison operators 
+- Basically a matter of finding out if it true or false .
+```python
+    # Comparison Operators
+   # ==, !=, >, <, >=, <=
+   a=5
+   b=3
+   ## == is it the same 
+   a==b # False
+   ## != is it not the same
+   a!=b # True
+   ##> is it bigger 
+   a>b # True
+   ## is it smaller 
+   a<b # False
+   ## >= is it bigger or equal to
+   a>=b # True
+   ## <= is it smaller or equal to
+   a<=b # False
+```
+## Assignment Operators 
+- This is like giving name to thing or giving value or adding data .
+```python
+   
