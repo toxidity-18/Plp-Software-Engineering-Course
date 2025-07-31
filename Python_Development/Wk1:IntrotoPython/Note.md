@@ -151,4 +151,29 @@
 ## Assignment Operators 
 - This is like giving name to thing or giving value or adding data .
 ```python
+   ## Assignment Operators 
+   ## give a name to my toy 
+   my_toy = 'teddy bear'
+   ## plain assignment 
+   a # name 
+   5 # value
+   a=5
+   ## add something to my value (increment)
+   a+=2# a=a+2 # 7
+   ## taking something away from my value (decrement)
+   a-=2 # a=a-2 # 5
+   ## multiply my value by something (multiplication)
+   a*=2 # a=a*2 # 10
+   ## divide my value by something (division)
+   a/=2 # a=a/2 # 5.0
+   ## floor divide my value by something (floor division)
+   a//=2 # a=a//2 # 2.0
+   ## modulus my value by something (modulus)
+   a%=2 # a=a%2 # 0.0
+   ## exponent my value by something (exponentiation)
+   a**=2 # a=a**2 # 25.0
+```
+## Logical Operators 
+- Word used by python to determine something truthiness or false
+```python
    

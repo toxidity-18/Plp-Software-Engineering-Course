@@ -99,4 +99,23 @@ a//=2 # a=a//2 # 2.0
 a%=2 # a=a%2 # 0.0
 ## exponent my value by something (exponentiation)
 a**=2 # a=a**2 # 25.0
-## bitwise operators
+## Logical Operators
+# and, or, not
+## and both ought to be true 
+is_sunny = True
+is_warm = True
+is_weekend = False
+is_sunny and is_warm # True
+is_sunny and is_weekend # False
+## or either ought to be true
+is_sunny or is_warm # True
+is_sunny or is_weekend # True
+## not negates the value
+not is_sunny # False
+not is_warm # False
+not is_weekend # True
+## practise
+age = 10
+age >5 and age<13 # True
+age >5 or age<13 # True
+not (age >5 and age<13) # False
