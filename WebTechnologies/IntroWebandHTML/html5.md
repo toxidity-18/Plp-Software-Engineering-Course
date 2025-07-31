@@ -45,6 +45,13 @@
         <source src="sound.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
 </audio>
+<img src='' width='' height=''>
 ```
 - Understand graphic and drawing .
-```html
+___
+- HTML Hyper text markup language .
+- Using markup to describe the structure of a webpage 
+- Nested elements are elements within elements 
+- Attribute provide more details about a html element thus . 
+- Attr name and the attr value : 
+- style attr which is used for css .
