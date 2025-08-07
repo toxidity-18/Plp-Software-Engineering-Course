@@ -55,3 +55,47 @@ ___
 - Attribute provide more details about a html element thus . 
 - Attr name and the attr value : 
 - style attr which is used for css .
+
+## List 
+- Organized list 
+```html 
+<ol>
+    <li></li>
+</ol.
+```
+- Unordered list
+```html
+<ul>
+   <li></li>
+</ul>
+```
+## Links 
+- Usually contains the attr of a .
+```html
+<a href=''></a>
+```
+## Image 
+- Self closing image tag
+```html 
+<img src='Link / directory of the img' alt='description of the image'>
+```
+## Semantic 
+- They tell the browser what our content is about .
+```html 
+<header>
+    <h1> This is introduction about our websites</h1>
+</header>
+<section id=''></section>
+<article id=''></article>
+<footer>
+    <p>Signing off</p>
+</footer>
+```
+## Accessibility and SEO
+- Ensure website can be used by everyone 
+- SEO Search engine optimization 
+
+    1) On page : optimize content , structure , title and metadata 
+    2) Off page : back links for other websites 
+    3) Technical : improve web speed , mobile friendliness and structure .
+
