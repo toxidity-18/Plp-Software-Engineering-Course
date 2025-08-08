@@ -22,6 +22,18 @@ ___
         - Expect the unexpected 
         - Also be flexible .
 
-## Fun user Research .
+## Fun user Research . 
+- It all a matter of learning through connecting with audience thus you gain insight through their experience , need and preference .
+- This can be done through :
 
-    
+    1) ### Survey :
+       - They ought to be short concise simple and straight forward .
+    2) ### Interview :
+      - Through informal invites , virtual calls , keep it relaxed engage both parties etc .
+    3) ### Social Media :
+      - Through platforms like inst,fb,tk,twitter where post questions , ask for comments and share updates .
+      -  Dynamic interaction : Host Q&A sessions between you and the user , The user get to ask question and also offer feedback in real time this shows commitment to listening .
+    4) ### Usability testing :
+     - Observe how ur user use your products in real time , thus you gain insights on where they struggle or what confuses them .
+     - Pain pointing 
+     -
