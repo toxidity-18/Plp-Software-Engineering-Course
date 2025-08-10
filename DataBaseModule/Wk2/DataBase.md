@@ -17,6 +17,16 @@
     <!-- output will be male and female ...  -->
     ```
 - Looks at column which is being compared then output the only unique value .
+
+## Data retrieval 
+- Select * from . . . where ... like '%'
+- % and _ wildcards letters .
+
+## WILD CARD CHARACTERS 
+- % and _
+- _ : random characters 
+- %: any amount of character 
+
 ___
 
 1) This is the primary tool is used to interact with ones database thus retrieving the data you need .
