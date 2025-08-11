@@ -30,6 +30,11 @@
     - Enhance scripting for javascript .
 4) Adding table captions 
     - Define what the table is about .
-    - 
+5) Merging cells
+    - Colspan and rowspan .
+### Audio and Video embedding .
+1) Through using the audio tag and nested source tag .
+2) Controls , autoplays , loop , muted , hidden .
+3) Through using video tags and nested source tag .
 
           
