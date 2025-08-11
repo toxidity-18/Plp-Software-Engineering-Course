@@ -139,3 +139,7 @@ CREATE TABLE students (
   2) identify the key data points : value name time etc 
   3) data types : names given to this data point .
   
+
+  ___
+  
+ 

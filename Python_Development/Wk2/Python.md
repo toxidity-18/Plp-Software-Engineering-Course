@@ -1,0 +1,61 @@
+# Python : Built in Data Structure .
+
+## What are data structures .
+1)  Variable can store : integers , booleans or strings .
+2) When handling complex data we use data structures , (why) Help organize and arrange data so that operation can be performed on them .
+3) Type of data structure :
+
+  -  Built in data structure : list , tuple , dictionary & set .
+  - User defined data structure : stack , tree , queue, linked list , graph & hash map .
+
+4) Common feature about : Built in data structure is that they are non-primitive (classed as objects) .
+5) D_S can be used to solve particular problems or perfect existing solutions .
+
+###  Mutability and immutability .
+1) D_S can either be mutable or immutable .
+
+  - Mutable : changed or modified : updated , deleted eg : list .
+  - Immutable : unchanged or they don't allow any modification once the data is set .
+
+## List and tuples .
+1) List can be used to store multiple data at once eg : shopping list .
+
+### Creating a list .
+1) List can store items of different data type and also the same data types .
+```python
+  list_a = [1,2,3,4,5] # int
+  list_b = ['sam','kam'] # strings 
+  list_c = ['sam',2,4.5] # str and int 
+  list_d = [True] # bool
+  list_e = [1,2,['sam',False],4.5] # nested list
+  ```
+### Accessing item on a list .
+1) Through use of index i.e : 0,1,2,3,4 etc .
+```python
+list_a [3] # 4
+list_b [0] # 'sam'
+```
+### Slicing python list .
+1) It possible to access items on a list through slicing operators i.e : : , -ve int 
+```python
+  list_f = [1,'sam',3.5,'kam',[1,True],False]
+  list_f[0] # 1
+  list_f[2:5] # 3.5, 'kam',[1,True]
+  list_f[-3] # 'kam'
+  list_f[2:] # 3.5,'kam',[1,True],False
+```
+### Adding elements on a list .
+1) How to add items on a list :
+
+  - Using the append() method which add item at the end of the list .
+  ```python
+  numbers = [1,2,3,4]
+  numbers.append(5) # [1,2,3,4,5]
+ ```
+ - Using extend() which adds all items on a list to another list .
+ ```python
+  prime_num=[2,3,5]
+  even_num=[0,2,4,6]
+  even_num.extend(prime_num) # [0,2,4,6,2,3,5]
+```
+#
