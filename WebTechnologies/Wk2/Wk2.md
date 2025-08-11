@@ -50,3 +50,5 @@
   - required for password username emails etc
   - pattern for zip codes .
   - minlength and maxlength for passwords .
+  - labels and field sets groups related input and textarea fields .
+  
