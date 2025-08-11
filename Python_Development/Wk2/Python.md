@@ -58,4 +58,24 @@ list_b [0] # 'sam'
   even_num=[0,2,4,6]
   even_num.extend(prime_num) # [0,2,4,6,2,3,5]
 ```
-#
+### Changing element inside a list
+1) To change the elements inside a list we will use to = operator .
+### Removing items on a list .
+1) In python we can use the following to remove items in a list :
+
+  - Using the del statements : Check the Wk2.py file for the relevant codes .
+  - Using the remove function  : '' 
+  - NB : The remove function only take one argument .
+  - NB : When you want to remove more than one argument be sure to use the del statement with the relevant index
+### Python list methods .
+1)  Type of python list methods and what they do :
+
+  -  Insert add an item at a specific position without replacing the original one .: Check code 39 to 40 .
+  - .pop remove item on a list through use of index .
+  - NB : .remove uses the value itself .
+  - .reverse , 1 to 5 changes to be 5 to 1 .
+  - NB : reverse takes in no values .
+  - .count , count how many items are on a list .
+  - .sort , arranges the list in ascending to descending order .
+  - .clear , this is the ultimate delete feature .Removes all the items on a list .
+  
