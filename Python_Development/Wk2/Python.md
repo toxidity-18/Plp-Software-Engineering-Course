@@ -86,3 +86,6 @@ list_b [0] # 'sam'
 ### List comprehension .
 1) This is another form of creating list through use of expressions and for statement inside [].
 
+## Tuples .
+1) Tuples are similar to a list the difference is that we cannot change the elements inside a tuple .
+2) Created with use of parantheses .
