@@ -78,4 +78,11 @@ list_b [0] # 'sam'
   - .count , count how many items are on a list .
   - .sort , arranges the list in ascending to descending order .
   - .clear , this is the ultimate delete feature .Removes all the items on a list .
-  
+### Iterating through a list .
+1) Using loops to iterate over elements inside a list .
+
+   - Print out the element separately as it loops over them thus assigning them to the given variable .
+
+### List comprehension .
+1) This is another form of creating list through use of expressions and for statement inside [].
+

@@ -50,5 +50,13 @@ print(language)
 language.sort() #ascending order by default .
 print(language)
 language.sort(reverse=True) # descending order .
-language.clear()
-
+# Iterating over elements inside a list .
+languages=['Python','Javascript','C++','Java']
+for language in languages :
+  print(language)
+basket = ['Apple','Mango','Pineapple']
+for fruit in basket:
+  print(fruit)
+# List comprehension 
+num = [num*num for num in range(1,10)]
+print(num)
