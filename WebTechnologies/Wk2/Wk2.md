@@ -51,4 +51,8 @@
   - pattern for zip codes .
   - minlength and maxlength for passwords .
   - labels and field sets groups related input and textarea fields .
-  
+
+### Recommended Tutorials .
+1) [NetNinja]:(https://www.youtube.com/playlist?list=PL4cUxeGkcC9gksOX3KdDJkGz0Bt9tv1_7)
+2) [WW3School]:(https://www.w3schools.com/html/html_media.asp)
+3) [GoogleDeveloper]:(https://www.youtube.com/watch?v=1P3jnhmEUBA)
