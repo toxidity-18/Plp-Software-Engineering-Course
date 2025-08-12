@@ -18,4 +18,14 @@
   - or : true if at least one condition is true .
   - not : reverse true/false statements .
  - combining boolean operators with relation operators .
- 
+
+### If . . . else statement 
+1) Code line 63 
+2) The if else statement is used to execute code among 2 alternatives .
+3) If the alternative is more that 3 we will use the if . . . elif . . . else statements .
+
+### if . . . elif . . . else statements 
+1) Used for multiple statements .
+
+### Testing myself :
+- Grading system .
