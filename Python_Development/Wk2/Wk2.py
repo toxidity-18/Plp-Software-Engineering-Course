@@ -60,3 +60,16 @@ for fruit in basket:
 # List comprehension 
 num = [num*num for num in range(1,10)]
 print(num)
+# Tuples
+var_1=('Hello')
+type(var_1) # this returns str .
+var_2=('Hello',)
+type(var_2) # this returns tuple
+var_3 = 'Hello' ,
+type(var_3)
+# Accessing tuples 
+# Indexing .
+letters = ('a','b','c','d')
+letters[0] # returns the value of a .
+letters[-1] # return the value of d .
+letters.count('c')

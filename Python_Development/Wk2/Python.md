@@ -89,3 +89,16 @@ list_b [0] # 'sam'
 ## Tuples .
 1) Tuples are similar to a list the difference is that we cannot change the elements inside a tuple .
 2) Created with use of parantheses .
+3) Type function allows us to know which class variable a function belongs too .
+ 4) Code ln 65 to 69 are different because of the closing comma in between them .
+### Accessing tuple 
+1) Like list each tuple has a specific index value .
+
+  - Indexing : Using the indexing operator , 
+  - NB : Index error this occurs when you try to access an item outside the range of indices .
+  - NB : TYpe error the indexes must be an int and  not a float or any other data type .
+  - Negative indexing : -1 represent the last item on my tuple so on so forth 
+### Tuple methods .
+1) Method which add or remove i.e , remove() , insert(),extend(),.pop() etc don't exist because tuple are immutable .
+2) But .count() and .index() work well .
+3) NB count check how many time that value is on repeat .well index check them number of index of the specific value .
