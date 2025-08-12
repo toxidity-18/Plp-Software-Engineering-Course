@@ -102,3 +102,17 @@ list_b [0] # 'sam'
 1) Method which add or remove i.e , remove() , insert(),extend(),.pop() etc don't exist because tuple are immutable .
 2) But .count() and .index() work well .
 3) NB count check how many time that value is on repeat .well index check them number of index of the specific value .
+
+## Dictionaries .
+1) These are order collection which store data in key: value pairs .
+2) The key is the unique id well as the value is the data passed and associated with that unique id .
+### Creating A dict in python .
+3) We will use {key:value } .
+4) Adding element inside a dictionary we use [] .
+### Changing values inside a dictionary .
+5) Del statement , and also the [] .
+6) Del can also delete the whole dict .
+7) Member test through using in which only affect the key and not the value .
+
+## Set 
+1) This is a collection on unique data .

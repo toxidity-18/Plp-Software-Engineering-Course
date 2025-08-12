@@ -73,3 +73,22 @@ letters = ('a','b','c','d')
 letters[0] # returns the value of a .
 letters[-1] # return the value of d .
 letters.count('c')
+print(letters)
+# Dictionary .
+personal_details= {
+'kenya':'Nairobi',
+'Name':'Samuel Kamawira',
+'Occupation':'Software Developer'
+}
+print (personal_details)
+# Adding element inside a python dictionary .
+personal_details['Age'] = 20
+print(personal_details)
+# changing element inside a dictionary .
+student_id = {6384:'Samuel',1398:'Kamawira'}
+del student_id[1398]
+print(student_id)
+student_id[1398] = 'Kamawira'
+print(student_id)
+student_id[1398] = 'Gichohi'
+print(student_id)
