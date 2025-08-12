@@ -93,4 +93,8 @@ elif grade>60:
   print('D')
 else :
   print ('F')
-  
+
+## Loops 
+basket = ['Apple','Mango','Banana','Oranges']
+for fruit in basket :
+  print (fruit)

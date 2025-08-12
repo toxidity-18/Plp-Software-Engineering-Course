@@ -29,3 +29,6 @@
 
 ### Testing myself :
 - Grading system .
+
+## Python Loops :
+1) Loops : repeat a block of code or perform iteration (repeating a task ) e.g iterating over a list .
