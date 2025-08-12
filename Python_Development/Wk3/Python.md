@@ -12,3 +12,10 @@
 
 5) Code ln 2 to 5 : the if statement evaluate the condition when it turn out to be true then the code inside the body is executed but if it evaluate to false the code inside the body is not executed .
 6) Relational operators : compare values and return boolean True or False .
+7) Boolean Operator in if statement : 
+
+  - and : returns true only when condition are true .
+  - or : true if at least one condition is true .
+  - not : reverse true/false statements .
+ - combining boolean operators with relation operators .
+ 
