@@ -92,3 +92,17 @@ student_id[1398] = 'Kamawira'
 print(student_id)
 student_id[1398] = 'Gichohi'
 print(student_id)
+Hg_scl_id={4466,6384,1398}
+print(Hg_scl_id)
+Hgh_scl={}
+print(Hgh_scl) 
+num = {1,2,3,4,5,6}
+num.add(10) 
+print(num)
+global_companies={'Apple','Microsoft,''Google'}
+kenyan_companies={'KRA','Kenya Power'}
+kenyan_companies.update(global_companies)
+print(kenyan_companies)
+# removing an element from a set .
+kenyan_companies.discard('Apple')
+print(kenyan_companies)

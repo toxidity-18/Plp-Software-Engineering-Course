@@ -116,3 +116,11 @@ list_b [0] # 'sam'
 
 ## Set 
 1) This is a collection on unique data .
+2) How to create a set , how to create an empty set through use of set()
+3) NB : empty {} create an empty dict whereas empty set() creates an empty set
+### Adding or updating a set .
+1) Using the add() function keyword .
+2) Update which work like .extend though this work for all kind of data type .
+### Removing an element from a set .
+1) Using the .discard function .
+### Built in function for sets .
