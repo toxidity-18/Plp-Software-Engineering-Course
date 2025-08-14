@@ -32,3 +32,27 @@
 
 ## Python Loops :
 1) Loops : repeat a block of code or perform iteration (repeating a task ) e.g iterating over a list .
+2) Iterate through list , string (print out words character by character ).
+
+### For loop :
+1) Check line 98 to 108 : 
+
+  - Using range 
+
+    1) Series of value between 2 numeric intervals .
+    2) To determine the range of value we use python built in function range() .
+
+### While loops :
+1) This performs a set of instruction as long as a give condition is true .
+2) Basic structure of while loops is :
+
+  - Initialization : set the start value .
+  - Condition : set of instruction .
+  - Action : what is to be perform for this loop to meet it sets of instructions .
+
+#### Loop control : breaks and continue .
+1) The break statement terminates the loop when it is meant .
+2) num % 2 == 0 NB : This ask if the number is even or not .
+
+### Nested Loops :
+1) Loops can be nested inside other loops thus : help access nested list .

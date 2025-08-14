@@ -98,3 +98,42 @@ else :
 basket = ['Apple','Mango','Banana','Oranges']
 for fruit in basket :
   print (fruit)
+
+name = 'Samuel'# string or a sequence thus iterable .
+for letters in name :
+  print(letters)
+
+programming_language=['Python','Javascript']
+for backend_language in programming_language:
+  print(backend_language)
+
+# element in a range of 5 elements 
+five_steps = range(5)
+print(five_steps)
+
+## for loop using range 
+for num in range(1,6) :
+  print(f'Num_steps:{num}') # remember about index ie. it always starts from 0 thus .
+
+## while loop 
+count = 1
+while count <=5 :
+  print(f'Count:{count}')
+  count += 1
+
+## ex 2
+age = 15
+while age <= 21 :
+  print (f'You are {age} which does not allow you to drink')
+  age += 1
+
+
+# Loop control : break and continue 
+for number in range (1,10):
+  if number == 5 :
+    print('Breaking the loop when the number is 5')
+    break # this will break the loop when the number is equal to 5 .
+  elif number %2 ==0 :
+    print(f'Skipping {number} because it an even number .')
+  continue # skip the rest loop body for even numbers .
+print(f'Processing Number:{number}')
