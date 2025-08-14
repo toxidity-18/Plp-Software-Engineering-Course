@@ -23,3 +23,13 @@
 
 ### More Resource :
 * [INSERT](https://www.w3schools.com/SQl/sql_insert.asp)
+
+
+# ACID Properties for transaction .
+- Atomicity : all or nothing i.e when sending money transfer through mobile-payment options .
+- Consistency : they follow certain rule when making transaction , i.e when send more money than one is your balances .Thus stop invalid data from messing up the database .
+- Isolation : When transaction are taking place from 2 different people it makes sure that this transaction do not affect one another .
+- Durability : make sure that changes made are permanent thus they are not affected when certain failures or outages occurs .
+
+### More Resources :
+[ACID](https://www.geeksforgeeks.org/acid-properties-in-dbms/)

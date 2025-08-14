@@ -48,3 +48,5 @@ SHOW COLUMNS FROM Employees;
 UPDATE Employees
 SET hire_date = '1975-10-21'
 WHERE employee_id = 2;
+
+-- My stadium.db 
