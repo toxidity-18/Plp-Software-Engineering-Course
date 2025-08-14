@@ -108,5 +108,16 @@ ___
 - ALTER help to change or modify Table columns through modifying , adding , dropping , renaming columns , adding and drop constraint ... 
 - CONSTRAINT : Rules in sql attached tables or columns thus controlling the kind of data that goes inside it .
 
+### Wild character :
+1) They are used to substitute one or more character in a string .
+2) The LIKE operator are used in WHERE clause which search for specified pattern in a column .
+3) WHERE select specified row in specified columns .
+
+4) Types of operators :
+
+    - Comparison operator :    WHERE first_name = 'Sam'
+    - WHERE salary > 50000 : NB < , > , < = , > =
+    - WHERE gender != Female 
+    
 
     
