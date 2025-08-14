@@ -13,4 +13,13 @@
     -- CREATE DATABASE . . . This create the database .
     -- USE 'DATABASE' . . .
     -- CREATE TABLES  table_name( column associated with that table) 
-  ```
+    /*  UPDATE table_name
+              SET 
+                column_name = new_value 
+              WHERE 
+                 primary_key = num_of_primary_key
+    */
+     -- DELETE FROM   table_name   WHERE primary_key = num_of_primary_key
+
+### More Resource :
+* [INSERT](https://www.w3schools.com/SQl/sql_insert.asp)
