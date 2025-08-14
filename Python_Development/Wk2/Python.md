@@ -58,4 +58,69 @@ list_b [0] # 'sam'
   even_num=[0,2,4,6]
   even_num.extend(prime_num) # [0,2,4,6,2,3,5]
 ```
-#
+### Changing element inside a list
+1) To change the elements inside a list we will use to = operator .
+### Removing items on a list .
+1) In python we can use the following to remove items in a list :
+
+  - Using the del statements : Check the Wk2.py file for the relevant codes .
+  - Using the remove function  : '' 
+  - NB : The remove function only take one argument .
+  - NB : When you want to remove more than one argument be sure to use the del statement with the relevant index
+### Python list methods .
+1)  Type of python list methods and what they do :
+
+  -  Insert add an item at a specific position without replacing the original one .: Check code 39 to 40 .
+  - .pop remove item on a list through use of index .
+  - NB : .remove uses the value itself .
+  - .reverse , 1 to 5 changes to be 5 to 1 .
+  - NB : reverse takes in no values .
+  - .count , count how many items are on a list .
+  - .sort , arranges the list in ascending to descending order .
+  - .clear , this is the ultimate delete feature .Removes all the items on a list .
+### Iterating through a list .
+1) Using loops to iterate over elements inside a list .
+
+   - Print out the element separately as it loops over them thus assigning them to the given variable .
+
+### List comprehension .
+1) This is another form of creating list through use of expressions and for statement inside [].
+
+## Tuples .
+1) Tuples are similar to a list the difference is that we cannot change the elements inside a tuple .
+2) Created with use of parantheses .
+3) Type function allows us to know which class variable a function belongs too .
+ 4) Code ln 65 to 69 are different because of the closing comma in between them .
+### Accessing tuple 
+1) Like list each tuple has a specific index value .
+
+  - Indexing : Using the indexing operator , 
+  - NB : Index error this occurs when you try to access an item outside the range of indices .
+  - NB : TYpe error the indexes must be an int and  not a float or any other data type .
+  - Negative indexing : -1 represent the last item on my tuple so on so forth 
+### Tuple methods .
+1) Method which add or remove i.e , remove() , insert(),extend(),.pop() etc don't exist because tuple are immutable .
+2) But .count() and .index() work well .
+3) NB count check how many time that value is on repeat .well index check them number of index of the specific value .
+
+## Dictionaries .
+1) These are order collection which store data in key: value pairs .
+2) The key is the unique id well as the value is the data passed and associated with that unique id .
+### Creating A dict in python .
+3) We will use {key:value } .
+4) Adding element inside a dictionary we use [] .
+### Changing values inside a dictionary .
+5) Del statement , and also the [] .
+6) Del can also delete the whole dict .
+7) Member test through using in which only affect the key and not the value .
+
+## Set 
+1) This is a collection on unique data .
+2) How to create a set , how to create an empty set through use of set()
+3) NB : empty {} create an empty dict whereas empty set() creates an empty set
+### Adding or updating a set .
+1) Using the add() function keyword .
+2) Update which work like .extend though this work for all kind of data type .
+### Removing an element from a set .
+1) Using the .discard function .
+### Built in function for sets .
