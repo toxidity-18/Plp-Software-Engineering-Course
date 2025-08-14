@@ -49,4 +49,105 @@ UPDATE Employees
 SET hire_date = '1975-10-21'
 WHERE employee_id = 2;
 
--- My stadium.db 
+/*  -- Transaction 
+-- START transaction;
+-- apply changes of transaction 
+-- COMMIT ;
+-- revert changes : 
+-- ROLLBACK ;
+-- Intsruct my SQL not to start transaction or commit change 
+-- SET AUTOCOMMIT = OFF ;
+CREATE DATABASE stadium;
+CREATE DATABASE stadium;
+USE stadium;
+CREATE TABLE users (
+    id INT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    email VARCHAR(255)
+);
+-- commit example
+START TRANSACTION;
+
+INSERT INTO users (id, username) 
+VALUES (1, 'peter');
+
+UPDATE users 
+SET email = 'peter@mail.com' 
+WHERE id = 1;
+COMMIT;
+SELECT * FROM users;
+-- rollback 
+START TRANSACTION;
+INSERT INTO users (id, username) 
+VALUES (2, 'sharon');
+
+UPDATE users 
+SET email = 'sharon@mail.com' 
+WHERE id = 2;
+ROLLBACK;
+
+-- Aggregate function : 
+	-- AVG : cal avg value in a set of values .
+	SELECT 
+		AVG(buyPrice) avg_buy_price
+	FROM 
+		products;
+	-- Count return number of values inside a set .
+    SELECT 
+		COUNT(*) AS total
+	FROM 
+		products;
+	-- Max maximum value inside a set .
+    SELECT 
+		MAX(buyPrice) highest_price
+	FROM 
+		products;
+	-- Min minimum value inside a set .
+    SELECT 
+		MIN(buyPrice) lowest_price
+	FROM 
+		products;
+	-- Sum return sum of values in set .
+    SELECT 
+		productCode, 
+		SUM(priceEach * quantityOrdered) total
+	FROM
+		orderDetails
+	GROUP BY productCode
+	ORDER BY total DESC;
+    -- Group by : group order statues .
+    SELECT 
+	  status 
+	FROM 
+	  orders 
+	GROUP BY 
+	  status;
+    -- Obtain number of orders on each status 
+    SELECT 
+	  status, 
+	  COUNT(*) 
+	FROM 
+	  orders 
+	GROUP BY 
+	  status;
+	-- total amount of each order 
+    SELECT 
+	  orderNumber, 
+	  SUM(quantityOrdered * priceEach) AS total 
+	FROM 
+	  orderdetails 
+	GROUP BY 
+	  orderNumber;
+	-- Having : apply condition to the group returned by Group by and only include groups which meet specified conditions .
+    SELECT 
+	  ordernumber, 
+	  SUM(quantityOrdered) AS itemsCount, 
+	  SUM(priceeach * quantityOrdered) AS total 
+	FROM 
+	  orderdetails 
+	GROUP BY 
+	  ordernumber 
+	HAVING 
+	  total > 1000;
+      */
+      
