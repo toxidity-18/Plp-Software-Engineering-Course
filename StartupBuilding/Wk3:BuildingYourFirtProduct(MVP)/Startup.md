@@ -13,3 +13,9 @@
 
 ### Agile development :
 1) This allows you to be flexible , quick and efficient due to the advantage of being able to adopt from user feedback .
+
+### Steps to create your mvp .
+1) Define the problem (Core Idea) you solution solves and how it solves it .E.g Meal delivery system . Keep it simple and focused .
+2) Feature of you solution : this is what you solution uses to be able to solve those problem . E.g Feature can include : order system , menu option , payment processes .
+3) Using No code tools (optional) Eg Bubble web-flow glide .
+4) Have a prototype which has the must have feature it does not need to be perfect just . . . working to show that ur solution adds value .
