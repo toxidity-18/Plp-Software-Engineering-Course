@@ -56,3 +56,18 @@
 
 ### Nested Loops :
 1) Loops can be nested inside other loops thus : help access nested list .
+
+
+## List Comprehension :
+- This is the ability to create and manipulate list .
+- Evaluates element in an iterable thus creating a list based on conditions for each elements of list created .
+- Syntax : [expressions for elements in iterable if condition] .
+- Expressions :the value applied to each elements .
+- Iterable : this is a sequence (list , tuple etc ) that you iterate over .
+- Condition : filter which that determines whether to include the elements .
+
+### Condition to filter out element :
+- Condition like if statements .
+
+### Nesting list comprehension :
+- Handles complex operations such as creating a matrix .

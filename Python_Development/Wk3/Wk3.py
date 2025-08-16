@@ -137,3 +137,20 @@ for number in range (1,10):
     print(f'Skipping {number} because it an even number .')
   continue # skip the rest loop body for even numbers .
 print(f'Processing Number:{number}')
+
+
+## Traditional loops 
+squares = [] 
+for x in range(5):
+  squares.append(x**2)
+  # o , 1, 2 , 3, 4, 5
+  # list comprehension 
+  squares = [x**2 for x in range (5)]
+  print (squares)
+
+  ### condition in list comprehensions 
+  even_number = [x for x in range (10)  if x % 2 == 0 ]
+print(even_number)
+
+### nested list comprehension 
+matrix =[[i*j for i in range (1,4)] for j in range (1,4)]
